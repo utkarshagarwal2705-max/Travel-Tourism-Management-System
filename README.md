@@ -1,6 +1,6 @@
 # Travel & Tourism Management System
 
-A desktop-based application developed using Java Swing and MySQL to manage travel-related operations such as customer details, bookings, and payments.
+A desktop-based application developed using Java Swing and MySQL to manage travel-related operations such as customer details, bookings, and basic system navigation.
 
 ---
 
@@ -15,9 +15,9 @@ A desktop-based application developed using Java Swing and MySQL to manage trave
 - User Login & Signup
 - Password Recovery System
 - Add / Update / View / Delete Customer Details
-- Travel Package Booking
+- Travel Package Viewing and Booking
 - Hotel Booking System
-- Payment Module (external redirection)
+- Payment Module (simulated using external redirection)
 
 ---
 
@@ -36,9 +36,17 @@ A desktop-based application developed using Java Swing and MySQL to manage trave
 
 ---
 
-## 📌 Notes
+## 📁 Project Structure
+- src/ → Java source files  
+- icons/ → Images used in UI  
+- database.sql → Database schema  
+
+---
+
+## 🔒 Notes
+- Payment functionality is simulated using external redirection
+- Basic authentication is implemented for login functionality
 - This project is developed for academic purposes
-- Payment functionality is simulated using redirection
 
 ---
 
